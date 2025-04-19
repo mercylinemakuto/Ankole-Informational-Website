@@ -1,0 +1,154 @@
+.breakfast-image{
+    background-image: url(Images/65c4760165c03d467b650bcb_1.jpg);
+    color: white;
+    height: 24cm;
+    width: 50%;
+    text-align: center;
+    padding-top: 3cm;
+}
+#menu{
+    font-size: 30px;
+    margin-top: 2.5cm;
+   
+}
+.foods span{
+    font-size: 19px;
+}
+.foods h2{
+    margin-top: 1cm;
+}
+.foods p{
+    margin-top: 0.5cm;
+    font-size: 17px;
+}
+#kitisuru-menu{
+    font-size: 40px;
+    color: brown;
+    margin-top: 2cm;
+}
+.breakfast{
+    display: flex;
+    background-color: black;
+    color: white;
+
+}
+#coffee{
+    color: brown;
+    font-weight: bolder;
+ 
+}
+#tea{
+    color: brown;
+    font-weight: bolder;
+    margin-left: 0.5cm;
+}
+#chocolate{
+    color: brown;
+    font-weight: bolder;
+    margin-left: 0.5cm;
+
+}
+.coffee{
+    display: flex;
+    gap: 15cm;
+}
+.coffee p{
+    font-size: 18px;
+}
+.foods{
+    padding-left: 2cm;
+    padding-top: 1cm;
+    overflow: auto;
+    height: 100vh;
+}
+.soup{
+    display: flex;
+    gap: 10.5cm;
+}
+#cup-bowl{
+    margin-top: 0.5cm;
+}
+.juices{
+    display: flex;
+    gap: 16.5cm;
+}
+#break{
+    width: 5cm;
+    height: 5cm;
+    margin-top: 3cm;
+}
+#food{
+    margin-left: 2cm;
+}
+.fries{
+    display: flex;
+    gap: 16cm;
+}
+#mbuzi-soup{
+    color: brown;
+}
+#fry{
+    color: brown;
+}
+#wings{
+    color: brown;
+    margin-top: 0.6cm;
+}
+#juice{
+    color: brown;
+    margin-top: 0.6cm;
+}
+#hot{
+    margin-left: 13cm;
+}
+.brewing{
+    margin-top: 0.7cm;
+}
+.srira{
+    margin-top: 0.6cm;
+} 
+.srira span{
+    font-size: 17px;
+}
+.reserved{
+    background-color: black;
+    width: 20cm;
+    height: 1.9cm;
+    color: white;
+    border-radius: 20px;
+   top: 22cm;
+    left: 3.5cm;
+   position: absolute;
+   
+}
+
+.fa-bars{
+    color: bisque;
+    font-size:24px;
+    margin-right: 0.5cm;
+    padding: 0.3cm;
+}
+#reserve-home{
+    font-size: 20px;
+    margin-left: 0.5cm;
+    text-decoration: none;
+    color: white;
+}
+#reserve-button{
+    width: 4cm;
+    height: 1.5cm;
+    background-color: rgb(100, 97, 97);
+    color: white;
+    border-radius: 22px;
+   margin-top: 0.2cm;
+   margin-left: 0.5cm;
+   border: none;
+}
+#reserve-button:hover{
+    color:gray ;
+    background-color: rgb(201, 179, 138);
+}
+a{
+    text-decoration: none;
+    color: white;
+}

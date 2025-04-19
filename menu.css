@@ -1,0 +1,148 @@
+.menu{
+    display: flex;
+ 
+}
+
+.kitisuru-menu{
+background-image: url(Images/menu1.jpg);
+height:25.5cm;
+width: 50%;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: rgba(0, 0, 0, 0.5);
+background-blend-mode: darken;
+
+}
+.kilimani-menu{
+background-image: url(Images/menu2.jpg);
+height:25.5cm;
+width: 50%;
+background-repeat: no-repeat;
+background-size: cover;
+background-color: rgba(0, 0, 0, 0.5);
+background-blend-mode: darken;
+/
+}
+
+.kitisuru-menu h4{
+    z-index: 2;  
+}
+
+.kilimani-menu h4{
+    z-index: 2;
+    /* position: relative; */
+}
+
+#location-menu{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    margin-left: 7cm;
+}
+
+#karibu{
+    color: brown;
+    font-size: 30px;
+    margin-top: 10cm;
+   margin-left: 7cm;
+}
+
+#discover{
+    color: brown;
+    font-size: 30px; 
+    margin-top: 10cm; 
+    margin-left: 7cm; 
+}
+
+.fa-quote-left{
+    color: brown;
+    margin-right: 19cm;
+}
+.fa-quote-right{
+    color: brown;
+    margin-left: 17cm;
+}
+.reserved{
+    background-color: black;
+    width: 20cm;
+    height: 1.9cm;
+    color: white;
+    border-radius: 20px;
+   top: 20cm;
+    left: 12cm;
+   position: absolute;
+   
+}
+
+.fa-bars{
+    color: bisque;
+    font-size:24px;
+    margin-right: 0.5cm;
+    padding: 0.3cm;
+}
+#reserve-home{
+    font-size: 20px;
+    margin-left: 0.5cm;
+    text-decoration: none;
+    color: white;
+}
+#reserve-button{
+    width: 4cm;
+    height: 1.5cm;
+    background-color: rgb(100, 97, 97);
+    color: white;
+    border-radius: 22px;
+   margin-top: 0.2cm;
+   margin-left: 0.5cm;
+   border: none;
+}
+#reserve-button:hover{
+    color:gray ;
+    background-color: rgb(201, 179, 138);
+}
+
+#logo{
+    width: 5cm;
+    height: 5cm;
+    padding-left: 21.5cm;
+    position: absolute;
+    padding-top: 3cm;
+
+ 
+}
+
+ a{
+    text-decoration: none;
+    color: white;
+ }
+ .fa-whatsapp{
+    color: white;
+    position: absolute;
+    bottom: 9%;
+    right: 5%;
+    border: 1px solid white;
+    border-radius: 90px;
+    padding: 10px;
+
+ }
+ .fa-facebook{
+    color: white;
+    position: absolute;
+    left: 45cm;
+    top: 3cm;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 50px;
+ }
+ .fa-instagram{
+    color: white;
+    position: absolute;
+    left: 42cm;
+    top: 3cm;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 30px;
+ }
+ .material-icons{
+    margin-top: 0.5cm;
+ }

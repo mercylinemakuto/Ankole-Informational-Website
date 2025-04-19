@@ -1,0 +1,145 @@
+/* Breakfast */
+.breakfast-image{
+    background-image: url(Images/65c4760165c03d467b650bcb_1.jpg);
+    color: white;
+    height: 24cm;
+    width: 50%;
+    text-align: center;
+    padding-top: 3cm;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+#kilimani-menu{
+    color: brown;
+    font-size: 30px;
+}
+#menu{
+    font-size: 30px;
+}
+.breakfast{
+    display: flex;
+    background-color: black;
+    color: white;
+
+}
+#coffee{
+    color: brown;
+    font-weight: bolder;
+}
+#tea{
+    color: brown;
+    font-weight: bolder;
+    margin-left: 0.5cm;
+}
+#chocolate{
+    color: brown;
+    font-weight: bolder;
+    margin-left: 0.5cm;
+}
+.coffee{
+    display: flex;
+    gap: 14cm;
+    font-size: 18px;
+}
+#food{
+    margin-left: 2cm;
+}
+.fries{
+    display: flex;
+    gap: 15.4cm;
+}
+#mbuzi-soup{
+    color: brown;
+}
+#fry{
+    color: brown;
+}
+#wings{
+    color: brown;
+}
+#juice{
+    color: brown;
+}
+.soup{
+    display: flex;
+    gap: 10.5cm;
+}
+.juices{
+    display: flex;
+    gap: 15.9cm;
+}
+.foods{
+    padding-left: 2cm;
+    padding-top: 1cm;
+
+}
+#hot{
+    margin-left: 13cm;
+    
+}
+.foods p{
+    font-size: 18px;
+}
+.foods span{
+    font-size: 18px;
+}
+.srira span{
+    font-size: 17px;
+}
+.fries p{
+    font-size: 17px;  
+}
+.juices p{
+    font-size: 17px;     
+}
+#reserve-button{
+    width: 4cm;
+    height: 1.5cm;
+    background-color: rgb(100, 97, 97);
+    color: white;
+    border-radius: 20px;
+   margin-top: 0.3cm;
+   margin-left: 0.3cm;
+   border: none;
+   text-decoration: none;
+}
+.fa-clock fa-xl{
+    color: #edf1f7;
+   
+}
+.fa-bars{
+    color: bisque;
+    font-size:24px;
+    margin-right: 0.5cm;
+
+}
+#reserve-home{
+    font-size: 20px;
+    margin-left: 0.5cm;
+    text-decoration: none;
+    color: white;
+}
+.reserved{
+    background-color: black;
+    width: 20cm;
+    height: 2cm;
+    color: white;
+    border-radius: 20px;
+    margin-top: 5cm;
+    margin-left: 0.2cm;
+    /* position: fixed; */
+   
+}
+#reserve-button:hover{
+    color:gray ;
+    background-color: rgb(201, 179, 138);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.fa-whatsapp{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}

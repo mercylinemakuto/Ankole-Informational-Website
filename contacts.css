@@ -1,0 +1,233 @@
+.contacts{
+    display: flex;
+    gap: 1cm;
+    background-image: url(Images/ankolegrill.jpg);
+    color: white;
+    height: 17.4cm;
+    /* opacity: 80%; */
+    padding-left: 13cm;
+    padding-top: 7.8cm;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: darken;
+   
+}
+#address{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.kitisuru-contacts{
+    border: 2px solid white;
+    width: 11cm;
+    height: 7cm;
+    padding: 0.3cm;
+}
+.kitisuru-contact{
+    border: 2px solid white;
+    width: 11cm;
+    height: 9cm;
+    padding: 1cm;
+    margin-top: 0.3cm;  
+}
+#logo{
+    width: 5cm;
+    height: 5cm;
+    position: absolute;
+    top: 1cm;
+    right: 20cm;
+
+}
+.reserved{
+    background-color: black;
+    width: 20cm;
+    height: 1.9cm;
+    color: white;
+    border-radius: 20px;
+   top: 21.5cm;
+    left: 12cm;
+   position: absolute;
+   
+}
+
+.fa-bars{
+    color: bisque;
+    font-size:24px;
+    margin-right: 0.5cm;
+    padding: 0.3cm;
+}
+#reserve-home{
+    font-size: 20px;
+    margin-left: 0.5cm;
+    text-decoration: none;
+    color: white;
+}
+#reserve-button{
+    width: 4cm;
+    height: 1.5cm;
+    background-color: rgb(100, 97, 97);
+    color: white;
+    border-radius: 22px;
+   margin-top: 0.2cm;
+   margin-left: 0.5cm;
+   border: none;
+}
+#reserve-button:hover{
+    color:gray ;
+    background-color: rgb(201, 179, 138);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.fa-whatsapp{
+    color: white;
+    position: absolute;
+    bottom: 9%;
+    right: 5%;
+    border: 1px solid white;
+    border-radius: 90px;
+    padding: 10px;
+
+ }
+ .fa-facebook{
+    color: white;
+    position: absolute;
+    left: 45cm;
+    top: 3cm;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 50px;
+ }
+ .fa-instagram{
+    color: white;
+    position: absolute;
+    left: 42cm;
+    top: 3cm;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 30px;
+ }
+ .material-icons{
+    margin-top: 0.5cm;
+ }
+ @media screen and (min-width: 320px) and (max-width: 857px){
+    .contacts{
+        display: flex;
+        gap: 1cm;
+        background-image: url(Images/ankolegrill.jpg);
+        color: white;
+        height: 22cm;
+        /* opacity: 80%; */
+        padding-left:0.5cm;
+        padding-top: 7.8cm;
+        background-color: rgba(0, 0, 0, 0.6);
+        background-blend-mode: darken;
+       display: block;
+    }
+    #address{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+    .kitisuru-contacts{
+        border: 2px solid rgb(252, 246, 246);
+        width: 8cm;
+        height: 7cm;
+        /* padding: 0.3cm; */
+    }
+    .kitisuru-contact{
+        border: 2px solid rgb(241, 235, 235);
+        width: 7cm;
+        height: 9cm;
+        /* padding: 1cm; */
+        /* margin-top: 0.1cm;   */
+    }
+    #logo{
+        width: 5cm;
+        height: 5cm;
+        /* position: fixed; */
+        /* top: 10cm; */
+        /* right: 20cm; */
+        /* z-index: -1; */
+    
+    }
+    .reserved{
+        background-color: black;
+        width: 8cm;
+        height: 1.7cm;
+        color: white;
+        border-radius: 20px;
+       top: 27.5cm;
+        left: 0.2cm;
+        /* position: fixed; */
+       /* position: absolute; */
+       
+    }
+    
+    .fa-bars{
+        color: bisque;
+        font-size:24px;
+        margin-right: 0.5cm;
+        padding: 0.5cm;
+    }
+    #reserve-home{
+        font-size: 15px;
+        margin-left: 0.1cm;
+        text-decoration: none;
+        color: white;
+    }
+    #reserve-button{
+        width: 3cm;
+        height: 1cm;
+        background-color: rgb(100, 97, 97);
+        color: white;
+        border-radius: 22px;
+       margin-top: 0.2cm;
+       margin-left: 0.5cm;
+       border: none;
+    }
+    #reserve-button:hover{
+        color:gray ;
+        background-color: rgb(201, 179, 138);
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .fa-whatsapp{
+        color: white;
+        position: absolute;
+        bottom: -49%;
+        right: 5%;
+        border: 1px solid white;
+        border-radius: 90px;
+        padding: 10px;
+    
+     }
+     .fa-facebook{
+        color: white;
+        position: absolute;
+        left: 5cm;
+        top: 3cm;
+        border: 1px solid gray;
+        padding: 10px;
+        border-radius: 50px;
+     }
+     .fa-instagram{
+        color: white;
+        position: absolute;
+        left: 8cm;
+        top: 3cm;
+        border: 1px solid gray;
+        padding: 10px;
+        border-radius: 30px;
+     }
+     .material-icons{
+        margin-top: 0.5cm;
+     } 
+     #reserve-home{
+        display: none;
+     } 
+ }

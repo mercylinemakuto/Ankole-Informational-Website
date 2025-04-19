@@ -1,0 +1,133 @@
+.events{
+    display: flex;
+     
+}
+#event-logo{
+    width: 4cm;
+    height: 4cm;
+}
+.accra{
+    background-image: url(Images/accra.jpg);
+    color: white;
+    width: 25.5cm;
+    height: 17cm;
+    padding: 4cm;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+   
+   
+}
+.zanzibar{
+  background-image: url(Images/Zanzibar.jpg);  
+  color: white;
+  width: 25cm;
+  height: 17cm;
+  padding: 4cm;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+}
+.decor{
+    background-image: url(Images/decor.jpg);
+    color: white;
+    width: 25cm;
+    height: 17cm;
+    padding: 4cm;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+}
+#pavilion{
+    color: rgb(78, 75, 75);
+    font-size: 20px;
+    font-weight: bolder;
+}
+#ankole-decor{
+    color: rgb(36, 35, 35);
+    font-size: 20px ;
+    font-weight: bolder;
+}
+#pax{
+    color: burlywood;
+    font-size: 18px;
+}
+#infor{
+    font-size: 18px;  
+}
+.reserved{
+    background-color: black;
+    width: 20cm;
+    height: 1.9cm;
+    color: white;
+    border-radius: 20px;
+   top: 21cm;
+    left: 13cm;
+   position: absolute;
+   
+}
+
+.fa-bars{
+    color: bisque;
+    font-size:24px;
+    margin-right: 0.5cm;
+    padding: 0.3cm;
+}
+#reserve-home{
+    font-size: 20px;
+    margin-left: 0.5cm;
+    text-decoration: none;
+    color: white;
+}
+#reserve-button{
+    width: 4cm;
+    height: 1.5cm;
+    background-color: rgb(100, 97, 97);
+    color: white;
+    border-radius: 22px;
+   margin-top: 0.2cm;
+   margin-left: 0.5cm;
+   border: none;
+}
+#reserve-button:hover{
+    color:gray ;
+    background-color: rgb(201, 179, 138);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.fa-facebook{
+    color: white;
+    position: absolute;
+    left: 45cm;
+    top: 2.5cm;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 50px;
+ }
+ .fa-instagram{
+    color: white;
+    position: absolute;
+    left: 42cm;
+    top: 2.5cm;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 30px;
+ }
+ .material-icons{
+    margin-top: 0.5cm;
+ }
+ .fa-whatsapp{
+    color: white;
+    position: absolute;
+    bottom: 9%;
+    right: 5%;
+    border: 1px solid white;
+    border-radius: 90px;
+    padding: 10px;
+
+ }
+ .material-icons{
+    margin-top: 0.5cm;
+ }

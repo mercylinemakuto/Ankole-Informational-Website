@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/*  */
+.container{
+width:100% ;
+height:900px ;
+overflow: hidden;
+
+}
+.welcome h1{
+    color: gray;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 2cm;
+}
+
+.welcome{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 110vh;
+    object-fit: cover;
+    animation: slideShow 15s infinite ease-in;
+}
+ .welcome:nth-child(1){
+    background-image: url('Images/65c34fee7c31fcb2f8c3700b_001.jpg');
+    animation-delay: 0s;
+   height: 25.7cm;
+}
+.welcome:nth-child(2){
+    background-image: url('Images/65e5b8b549a7aac5dba0e7d3_ankole_kilimani_nightlife.jpg');
+    animation-delay: 3s;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25.7cm;
+}
+.welcome:nth-child(3){
+    background-image: url(Images/65c5f9644676e29dddf08c65_ankolegrill_t-bone-steak-2024-1.jpg);
+    animation-delay: 6s;
+    height: 25.7cm;
+}
+.welcome:nth-child(4){
+    background-image: url(Images/65c5f9644676e29dddf08c65_ankolegrill_t-bone-steak-2024-1.jpg);
+    animation-delay: 9s;
+    height: 25.7cm;
+}
+.welcome:nth-child(5){
+    background-image: url(Images/65cb61d8c46dc657819e1cc2_ankolegrill_slider.jpg);
+    animation-delay: 12s;
+    height: 25.7cm;
+}
+
+
+@keyframes slideShow{
+0% {opacity: 0;}
+5% {opacity: 1;}
+25% {opacity: 1;}
+30% {opacity: 0;}
+100% {opacity: 0;}
+}
+#taste{
+    width: 5cm;
+    height: 5cm;
+    margin-left: 22cm;
+    margin-top: 5cm;
+}
+.reserved{
+    background-color: black;
+    width: 20cm;
+    height: 1.9cm;
+    color: white;
+    border-radius: 20px;
+   top: 20cm;
+    left: 12cm;
+   position: absolute;
+   
+}
+
+.fa-bars{
+    color: bisque;
+    font-size:24px;
+    margin-right: 0.5cm;
+    padding: 0.3cm;
+}
+#reserve-home{
+    font-size: 20px;
+    margin-left: 0.5cm;
+    text-decoration: none;
+    color: white;
+}
+#reserve-button{
+    width: 4cm;
+    height: 1.5cm;
+    background-color: rgb(100, 97, 97);
+    color: white;
+    border-radius: 22px;
+   margin-top: 0.2cm;
+   margin-left: 0.5cm;
+   border: none;
+}
+#reserve-button:hover{
+    color:gray ;
+    background-color: rgb(201, 179, 138);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.material-icons{
+    margin-top: 0.5cm;
+ }
+
+
+ .fa-whatsapp{
+    color: white;
+    position: absolute;
+    bottom: 9%;
+    right: 5%;
+    border: 1px solid white;
+    border-radius: 90px;
+    padding: 10px;
+
+ }
+ .fa-facebook{
+    color: white;
+    position: absolute;
+    left: 45cm;
+    top: 3cm;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 50px;
+ }
+ .fa-instagram{
+    color: white;
+    position: absolute;
+    left: 42cm;
+    top: 3cm;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 30px;
+ }

@@ -1,0 +1,70 @@
+.second-review{
+    background-color: black;
+    color: white;
+    height: 17.2cm;
+    padding: 4cm;
+    text-align: center;
+}
+#paul{
+    font-size: 16px; 
+}
+.fa-quote-left{
+    color: brown;
+    margin-right: 19cm;
+}
+.fa-quote-right{
+    color: brown;
+    margin-left: 17cm;
+}
+#ankole-logo{
+    width: 5cm;
+    height: 5cm;
+}
+.reserved{
+    background-color: rgb(34, 32, 32);
+    width: 20cm;
+    height: 1.9cm;
+    color: white;
+    border-radius: 20px;
+   top: 21cm;
+    left: 13.5cm;
+   position: absolute;
+   
+}
+
+.fa-bars{
+    color: bisque;
+    font-size:24px;
+    margin-right: 0.5cm;
+    padding: 0.3cm;
+}
+#reserve-home{
+    font-size: 20px;
+    margin-left: 0.5cm;
+    text-decoration: none;
+    color: white;
+}
+#reserve-button{
+    width: 4cm;
+    height: 1.5cm;
+    background-color: rgb(100, 97, 97);
+    color: white;
+    border-radius: 22px;
+   margin-top: 0.2cm;
+   margin-left: 0.5cm;
+   border: none;
+}
+.fa-chevron-left{
+    color: #898f9a;
+   margin-left: -9%;
+   
+
+}
+.fa-chevron-right{
+    color: #858c99;
+    
+}
+#reserve-button:hover{
+    color:gray ;
+    background-color: white;
+}

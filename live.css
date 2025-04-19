@@ -1,0 +1,326 @@
+/* Live */
+.live-one{
+    width:8cm ;
+    height: 8cm ;
+    border: solid rgb(168, 125, 125);
+    }
+    .live-one:hover{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    #april{
+        color: rgb(236, 230, 230);
+        padding-top: 4.5cm;
+    }
+    .live{
+        display: flex;
+        gap: 2cm;
+        padding: 2cm;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 105vh;
+        background-image: url(Images/acoustic.avif);
+        background-size: cover;
+       /* overflow-x: hidden; */
+    }
+    .acoustic{
+        display: flex;
+        gap: 2cm; 
+    }
+    
+    .mushrooms{
+        display: flex;
+        gap: 2cm;
+        margin-top: 2cm;
+       
+    }
+    .them{
+        width:8cm ;
+        height: 8cm ; 
+        border: solid rgb(168, 125, 125); 
+    }
+    .them:hover{
+        -webkit-transform: scale(1.1);
+        transform: scale(1.1);   
+    }
+    .wednesday{
+        display: flex;
+        gap: 2cm;
+        margin-top: 2cm;
+        
+    }
+    
+    .live-session p{
+    
+        position: fixed;
+        z-index: 2;
+        top: 12cm;
+        font-size: 35px;
+        left: 12cm;
+        
+    }
+    .live-session h2{
+        position: absolute;
+        position: fixed;
+        z-index: 2;
+        color: brown;
+        font-size: 35px;
+        top: 9cm;
+        left: 13cm;
+    }
+    #logo-live{
+        width: 5cm;
+        height: 5cm;
+        margin-left: 9.5cm;
+        position: fixed;
+        /* position: absolute; */
+        
+       
+    }
+    #reserving-home{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        margin-left: 0.3cm;
+    }
+    .live-session{
+     background-size: cover;
+     width: 100%;
+     height: 98vh;
+     position: relative;  
+    }
+    #clock{
+        color: #edf1f7; 
+    
+    }
+    #bars{
+        margin-left: 0.4cm;
+    }
+    .live-nav{
+        background-color: black;
+        width: 19cm;
+        height: 1.8cm;
+        position: fixed;
+        border-radius: 20px;
+        margin-left: 1cm;
+        /* position: absolute; */
+        top: 22cm; 
+        right: 25cm;
+    
+    }
+    #live-button{
+        width: 4cm;
+        height: 1.5cm;
+        background-color: rgb(100, 97, 97);
+        color: white;
+        border-radius: 20px;
+       margin-top: 0.2cm;
+       margin-left: 0.3cm; 
+       border: none; 
+    }
+    #live-button:hover{
+        color:gray ;
+        background-color: rgb(201, 179, 138);
+    }
+    .right{
+        position: absolute;
+        right: 1cm;
+        top: 2cm;
+    
+       
+    }
+    /* Mushrooms */
+    #mushrooms{
+        width: 100%;
+        height: 27cm;
+    }
+    body{
+        overflow-x: hidden;
+    }
+    .fa-bars{
+        color: bisque;
+        font-size:24px;
+        margin-right: 0.5cm;
+        padding: 0.3cm;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .fa-whatsapp{
+        color: white;
+        position: fixed;
+        right: 6%;
+       bottom: 9%;
+       border: 1px solid white;
+        border-radius: 90px;
+        padding: 15px;
+     }
+     @media screen and (min-width: 320px) and (max-width: 857px){
+        .live-one{
+            width:8cm ;
+            height: 8cm ;
+            border: solid rgb(168, 125, 125);
+            margin-top: 8cm;
+            }
+            .live-one:hover{
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);
+            }
+            #april{
+                color: rgb(236, 230, 230);
+                padding-top: 4.5cm;
+            }
+            .live{
+                display: flex;
+                gap: 2cm;
+                padding: 2cm;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 265vh;
+                background-image: url(Images/acoustic.avif);
+                background-size: cover;
+                display: block;
+               /* overflow-x: hidden; */
+            }
+            .acoustic{
+                display: flex;
+                gap: 1cm;
+                display: block; 
+                left: 8cm;
+            }
+            
+            .mushrooms{
+                display: flex;
+                gap: 1cm;
+                margin-top: 1cm;
+                display: block;
+               
+            }
+            .them{
+                width:8cm ;
+                height: 8cm ; 
+                border: solid rgb(168, 125, 125); 
+            }
+            .them:hover{
+                -webkit-transform: scale(1.1);
+                transform: scale(1.1);   
+            }
+            .wednesday{
+                display: flex;
+                gap: 1cm;
+                margin-top: 1cm;
+                display: block;
+            }
+            
+            .live-session p{
+            
+                position: fixed;
+                z-index: 2;
+                /* top: -15%cm; */
+                font-size: 35px;
+                left: 5cm;
+                
+                
+            }
+            .live-session h2{
+                /* position: absolute; */
+                /* position: fixed; */
+                /* z-index: 2; */
+                color: brown;
+                font-size: 35px;
+                top: 1%;
+                left: 5cm;
+            }
+            #logo-live{
+                width: 5cm;
+                height: 5cm;
+                margin-left: 4cm;
+                position: fixed;
+                /* position: absolute; */
+                
+               
+            }
+            #reserving-home{
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+                margin-left: 0.3cm;
+            }
+            .live-session{
+             background-size: cover;
+             width: 100%;
+             height: 98vh;
+             position: relative;  
+            }
+            #clock{
+                color: #edf1f7; 
+            
+            }
+            #bars{
+                margin-left: 0.4cm;
+            }
+            .live-nav{
+                background-color: black;
+                width: 19cm;
+                height: 1.8cm;
+                position: fixed;
+                border-radius: 20px;
+                margin-left: 1cm;
+                /* position: absolute; */
+                top: 22cm; 
+                right: 5cm;
+            
+            }
+            #live-button{
+                width: 4cm;
+                height: 1.5cm;
+                background-color: rgb(100, 97, 97);
+                color: white;
+                border-radius: 20px;
+               margin-top: 0.2cm;
+               margin-left: 0.3cm; 
+               border: none; 
+            }
+            #live-button:hover{
+                color:gray ;
+                background-color: rgb(201, 179, 138);
+            }
+            .right{
+                position: absolute;
+                right: 1cm;
+                top: 2cm;
+            
+               
+            }
+            /* Mushrooms */
+            #mushrooms{
+                width: 100%;
+                height: 27cm;
+            }
+            body{
+                overflow-x: hidden;
+            }
+            .fa-bars{
+                color: bisque;
+                font-size:24px;
+                margin-right: 0.5cm;
+                padding: 0.3cm;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+            }
+            .fa-whatsapp{
+                color: white;
+                position: fixed;
+                right: 6%;
+               bottom: 9%;
+               border: 1px solid white;
+                border-radius: 90px;
+                padding: 15px;
+             }
+             #reserve-home{
+                display: none;
+            }  
+     }

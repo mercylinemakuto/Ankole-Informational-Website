@@ -1,0 +1,260 @@
+#logo-icon{
+    width: 5cm;
+    height: 5cm;
+}
+.reserve{
+    background-image: url(Images/Restaurant-Fairy-Knowe-480x480.webp);
+    width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 4cm;
+    background-color: rgba(0, 0, 0, 0.4);
+    background-blend-mode: darken;
+    text-align: center;
+    
+}
+#reserve-home{
+    font-size: 20px;
+    margin-left: 0.5cm;
+    text-decoration: none;
+    color: white;
+}
+.reserved{
+    background-color: black;
+    width: 20cm;
+    height: 2cm;
+    color: white;
+    border-radius: 20px;
+    margin-top: 9cm;
+    margin-left: 1cm;
+
+   
+}
+
+.reserve h2{
+    color: brown;
+    font-size: 45px;
+    
+}
+.reserve h4{
+    font-size: 27px;
+    color: white;
+}
+.reservations{
+    display: flex;
+   
+}
+#submit{
+    background-color: white;
+    width: 15.2cm;
+    height: 1.5cm;
+    border: 1px solid black;
+    border-radius: 10px;
+
+}
+#submit:hover{
+   color: white;
+    background-color: rgb(243, 243, 85);
+}
+.reserve-ankole{
+    background-color: black;
+    width: 50%;
+    height: 23.2cm;
+    padding-left: 2cm;
+    padding-top: 2cm;
+  
+}
+.labelling{
+    color: white;
+}
+input{
+    background-color: black;
+    width: 15cm;
+    height: 1.5cm;
+    color: white;
+}
+#reserve-button{
+    width: 4cm;
+    height: 1.5cm;
+    background-color: rgb(100, 97, 97);
+    color: white;
+    border-radius: 20px;
+   margin-top: 0.3cm;
+   margin-left: 0.3cm;
+   border: none;
+   
+}
+.fa-clock fa-xl{
+    color: #edf1f7;
+   
+}
+.fa-bars{
+    color: bisque;
+    font-size:24px;
+    margin-right: 0.5cm;
+
+}
+#selection{
+    width: 15cm;
+    height: 1.5cm;
+    background-color: black;
+    color: rgb(65, 62, 62);
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+#reserve-button:hover{
+    color:gray ;
+    background-color: rgb(201, 179, 138);
+}
+.bx bxl-whatsapp{
+font-size: 40px;
+}
+.reservation .quote-icon{
+    font-size: 40px;
+    position: absolute;
+    left: 10cm;
+}
+.fa-whatsapp{
+color: white;
+position: absolute;
+bottom: 7%;
+right: 4%;
+border: 1px solid white;
+border-radius: 90px;
+padding: 15px;
+}
+@media screen and (min-width: 320px) and (max-width: 857px){
+    #logo-icon{
+        width: 5cm;
+        height: 5cm;
+    }
+    .reserve{
+        background-image: url(Images/Restaurant-Fairy-Knowe-480x480.webp);
+        width: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 4cm;
+        background-color: rgba(0, 0, 0, 0.4);
+        background-blend-mode: darken;
+        text-align: center;
+         display: block;
+         height: 12cm; 
+        /* flex-wrap: wrap;  */
+        
+    }
+    #reserve-home{
+        font-size: 15px;
+        margin-left: 0.1cm;
+        text-decoration: none;
+        color: white;
+    }
+    .reserved{
+        background-color: black;
+        width: 5cm;
+        height: 2cm;
+        color: white;
+        border-radius: 20px;
+        margin-top: 25cm;
+        /* margin-left: 0.3cm; */
+        width: 90%;
+       /* position: fixed; */
+       /* position: absolute; */
+       /* flex-direction: column;
+       display: flex; */
+    }
+    
+    .reserve h2{
+        color: brown;
+        font-size: 45px;
+        
+    }
+    .reserve h4{
+        font-size: 27px;
+        color: white;
+    }
+    .reservations{
+        display: flex;
+        display: block;
+       
+    }
+    #submit{
+        background-color: white;
+        width: 8cm;
+        height: 1.5cm;
+        border: 1px solid black;
+        border-radius: 10px;
+    
+    }
+    #submit:hover{
+       color: white;
+        background-color: rgb(243, 243, 85);
+    }
+    .reserve-ankole{
+        background-color: black;
+        width: 81%;
+        height: 24cm;
+        /* padding-left: 2cm; */
+        padding-top: 2cm;
+      
+    }
+    .labelling{
+        color: white;
+    }
+    input{
+        background-color: black;
+        width: 8cm;
+        height: 1.5cm;
+        color: white;
+    }
+    #reserve-button{
+        width: 3.2cm;
+        height: 1cm;
+        background-color: rgb(100, 97, 97);
+        color: white;
+        border-radius: 20px;
+       margin-top: 0.3cm;
+       /* margin-left: 2.8cm; */
+       border: none;
+       
+    }
+    .fa-clock fa-xl{
+        color: #edf1f7;
+       
+    }
+    .fa-bars{
+        color: bisque;
+        font-size:24px;
+        margin-right: 0.3cm;
+    
+    }
+    #selection{
+        width: 8cm;
+        height: 1.5cm;
+        background-color: black;
+        color: rgb(65, 62, 62);
+        
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    #reserve-button:hover{
+        color:gray ;
+        background-color: rgb(201, 179, 138);
+    }
+    .bx bxl-whatsapp{
+    font-size: 40px;
+    }
+    .reservation .quote-icon{
+        font-size: 40px;
+        position: absolute;
+        left: 10cm;
+    } 
+    #reserve-home{
+        display: none;
+    } 
+    
+}
