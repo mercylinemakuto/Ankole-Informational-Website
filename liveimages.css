@@ -1,4 +1,28 @@
-#fadhile{
-    width: 100%;
-    height: 27cm;
+
+#live{
+ font-size: 50px;   
+ color: white;
+ padding-left: 18cm;
+ padding-bottom: 35cm;
+}
+.first{
+    background-image: url(https://cdn.prod.website-files.com/65aa1f79e2380ad0548de567/67e3e65e75e1622a029e77b9_%40ankolegrill%20Live%2042.jpg);
+    background-size: cover;
+    height: 37cm;
+    overflow-y: hidden;
+}
+@media screen and (min-width: 320px) and (max-width: 857px){
+    
+    #live{
+     font-size: 30px;   
+     color: rgb(15, 15, 15);
+     padding-left: 8cm;
+     padding-bottom: 105cm;
+    }
+    .first{
+        background-image: url(https://cdn.prod.website-files.com/65aa1f79e2380ad0548de567/67e3e65e75e1622a029e77b9_%40ankolegrill%20Live%2042.jpg);
+        background-size: cover;
+        height: 37cm;
+        overflow-y: hidden;
+    }  
 }

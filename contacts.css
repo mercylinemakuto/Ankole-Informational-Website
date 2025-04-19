@@ -204,12 +204,12 @@ a{
         border: 1px solid white;
         border-radius: 90px;
         padding: 10px;
-    
+
      }
      .fa-facebook{
         color: white;
         position: absolute;
-        left: 5cm;
+        left: 8cm;
         top: 3cm;
         border: 1px solid gray;
         padding: 10px;
@@ -219,7 +219,7 @@ a{
         color: white;
         position: absolute;
         left: 8cm;
-        top: 3cm;
+        top: 1cm;
         border: 1px solid gray;
         padding: 10px;
         border-radius: 30px;

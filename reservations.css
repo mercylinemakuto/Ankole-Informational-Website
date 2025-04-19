@@ -123,8 +123,8 @@ position: absolute;
 bottom: 7%;
 right: 4%;
 border: 1px solid white;
-border-radius: 90px;
-padding: 15px;
+border-radius: 100px;
+padding: 10px;
 }
 @media screen and (min-width: 320px) and (max-width: 857px){
     #logo-icon{
@@ -246,7 +246,7 @@ padding: 15px;
         background-color: rgb(201, 179, 138);
     }
     .bx bxl-whatsapp{
-    font-size: 40px;
+    font-size: 30px;
     }
     .reservation .quote-icon{
         font-size: 40px;

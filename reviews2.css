@@ -28,6 +28,7 @@
    
 }
 
+
 .fa-bars{
     color: bisque;
     font-size:24px;
@@ -58,3 +59,159 @@
     color:gray ;
     background-color: white;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+.fa-whatsapp{
+    color: white;
+    position: absolute;
+    bottom: 9%;
+    right: 5%;
+    border: 1px solid white;
+    border-radius: 90px;
+    padding: 10px;
+
+ }
+ .fa-facebook{
+    color: white;
+    position: absolute;
+    left: 45cm;
+    top: 3cm;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 50px;
+ }
+ .fa-instagram{
+    color: white;
+    position: absolute;
+    left: 42cm;
+    top: 3cm;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 30px;
+ }
+ .material-icons{
+    margin-top: 0.5cm;
+ }
+ @media screen and (min-width: 320px) and (max-width: 857px){
+    .third-review{
+        background-color: black;
+        color: white;
+        height: 17.2cm;
+        padding: 4cm;
+        text-align: center;   
+    }
+    #stivali{
+        font-size: 16px;
+    }
+    .fa-quote-left{
+        color: brown;
+        margin-right: 22cm;
+    }
+    .fa-quote-right{
+        color: brown;
+        margin-left: 2cm;
+
+    }
+    .reserved{
+        background-color: rgb(34, 32, 32);
+        width: 7cm;
+        height: 1.7cm;
+        color: white;
+        border-radius: 20px;
+       top: 21cm;
+        left: 1.8cm;
+       position: absolute;
+       
+    }
+    #ambience{
+        font-size: 0.7em;
+        margin-left: -1cm;
+    }
+    
+    .fa-bars{
+        color: bisque;
+        font-size:24px;
+        margin-right: 0.5cm;
+        padding: 0.3cm;
+    }
+    #reserve-home{
+        font-size: 20px;
+        margin-left: 0.5cm;
+        text-decoration: none;
+        color: white;
+    }
+    #reserve-button{
+        width: 3cm;
+        height: 1cm;
+        background-color: rgb(100, 97, 97);
+        color: white;
+        border-radius: 22px;
+       margin-top: 0.2cm;
+       margin-left: 0.5cm;
+       border: none;
+    }
+    #ankole-logo{
+        width: 5cm;
+        height: 5cm;
+        margin-left: -2cm;
+    }
+    #reserve-button:hover{
+        color:gray ;
+        background-color: white;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .fa-whatsapp{
+        color: white;
+        position: fixed;
+        bottom: 9%;
+        right: 5%;
+        border: 1px solid white;
+        border-radius: 90px;
+        padding: 10px;
+    
+     }
+     .fa-facebook{
+        color: white;
+        position: absolute;
+        left: 8cm;
+        top: 1cm;
+        border: 1px solid gray;
+        padding: 10px;
+        border-radius: 50px;
+     }
+     .fa-instagram{
+        color: white;
+        position: absolute;
+        left: 8cm;
+        top: 3cm;
+        border: 1px solid gray;
+        padding: 10px;
+        border-radius: 30px;
+     }
+     .material-icons{
+        margin-top: 0.5cm;
+     }
+     #reserve-home{
+        display: none;
+    } 
+    .fa-chevron-left{
+        color: #898f9a;
+       /* margin-right: 9cm; */
+       margin-left: -2cm;
+       margin-bottom: 10%;
+       
+    
+    }
+    .fa-chevron-right{
+        color: #858c99;
+        margin-left: 3cm;
+    }
+    h1{
+        margin-left: -1cm;
+    }
+ }

@@ -169,6 +169,8 @@ a{
             background-image: url('Images/65c34fee7c31fcb2f8c3700b_001.jpg');
             animation-delay: 0s;
            height: 25.7cm;
+           width: 100%;
+           background-size: cover;
         }
         .welcome:nth-child(2){
             background-image: url('Images/65e5b8b549a7aac5dba0e7d3_ankole_kilimani_nightlife.jpg');
@@ -176,21 +178,28 @@ a{
             background-repeat: no-repeat;
             background-size: cover;
             height: 25.7cm;
+            width: 100%;
         }
         .welcome:nth-child(3){
             background-image: url(Images/65c5f9644676e29dddf08c65_ankolegrill_t-bone-steak-2024-1.jpg);
             animation-delay: 6s;
             height: 25.7cm;
+            width: 100%;
+            background-size: cover;
         }
         .welcome:nth-child(4){
             background-image: url(Images/65c5f9644676e29dddf08c65_ankolegrill_t-bone-steak-2024-1.jpg);
             animation-delay: 9s;
             height: 25.7cm;
+            width: 100%;
+            background-size: cover;
         }
         .welcome:nth-child(5){
             background-image: url(Images/65cb61d8c46dc657819e1cc2_ankolegrill_slider.jpg);
             animation-delay: 12s;
             height: 25.7cm;
+            width: 100%;
+            background-size: cover;
         }
         
         

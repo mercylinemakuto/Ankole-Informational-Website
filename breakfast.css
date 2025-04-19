@@ -152,3 +152,177 @@ a{
     text-decoration: none;
     color: white;
 }
+.fa-whatsapp{
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+    border: 1px solid white;
+    border-radius: 90px;
+    padding: 15px;
+}
+@media screen and (min-width: 320px) and (max-width: 857px){
+    .breakfast-image{
+        background-image: url(Images/65c4760165c03d467b650bcb_1.jpg);
+        color: white;
+        height: 24cm;
+        width: 100%;
+        text-align: center;
+        padding-top: 3cm;
+        background-color: rgba(0, 0, 0, 0.5);
+        background-blend-mode: darken;
+        background-size: cover;
+    }
+    #kilimani-menu{
+        color: brown;
+        font-size: 20px;
+    }
+    #menu{
+        font-size: 30px;
+    }
+    .breakfast{
+        display: flex;
+        background-color: black;
+        color: white;
+        display: block;
+        background-size: cover;
+    }
+    #coffee{
+        color: brown;
+        font-weight: bolder;
+        font-size: 15px;
+    }
+    #tea{
+        color: brown;
+        font-weight: bolder;
+        margin-left: 0.2cm;
+        font-size: 15px;
+    }
+    #chocolate{
+        color: brown;
+        font-weight: bolder;
+        margin-left: 0.2cm;
+        font-size: 15px;
+    }
+    .coffee{
+        display: flex;
+        gap: 3.5cm;
+        font-size: 18px;
+        /* display: block; */
+    }
+    #food{
+        margin-left: 0.5cm;
+    }
+    .fries{
+        display: flex;
+        gap: 3.5cm;
+        /* display: block; */
+    }
+    #mbuzi-soup{
+        color: brown;
+    }
+    #fry{
+        color: brown;
+        font-size: 15px;
+    }
+    #wings{
+        color: brown;
+        font-size: 15px;
+    }
+    #juice{
+        color: brown;
+        font-size: 15px;
+    }
+    .soup{
+        display: flex;
+        gap: 1cm;
+    }
+    .juices{
+        display: flex;
+        gap: 3.9cm;
+    }
+    .foods{
+        padding-left: 1cm;
+        padding-top: 1cm;
+        position: relative;
+    }
+    #hot{
+        margin-left: 3cm;
+        
+    }
+    #break{
+        height: 5cm;
+        width: 5cm;
+    }
+    .foods p{
+        font-size: 15px;
+    }
+    .foods span{
+        font-size: 10px;
+    }
+    .srira span{
+        font-size: 15px;
+    }
+    .fries p{
+        font-size: 15px;  
+    }
+    .juices p{
+        font-size: 15px;     
+    }
+    #reserve-button{
+        width: 3cm;
+        height: 1cm;
+        background-color: rgb(100, 97, 97);
+        color: white;
+        border-radius: 20px;
+       margin-top: 0.3cm;
+       margin-left: 0.3cm;
+       border: none;
+       text-decoration: none;
+    }
+    .fa-clock fa-xl{
+        color: #edf1f7;
+       
+    }
+    .fa-bars{
+        color: bisque;
+        font-size:24px;
+        /* margin-right: 0.2cm; */
+    
+    }
+    #reserve-home{
+        font-size: 20px;
+        margin-left: 0.2cm;
+        text-decoration: none;
+        color: white;
+    }
+    .reserved{
+        background-color: black;
+        width: 7cm;
+        height: 1.7cm;
+        color: white;
+        border-radius: 20px;
+        margin-top: 3cm;
+        margin-left: -3cm;
+        /* position: fixed; */
+       
+    }
+    #reserve-button:hover{
+        color:gray ;
+        background-color: rgb(201, 179, 138);
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .fa-whatsapp{
+         position: fixed;
+        bottom: 5%;
+        right: 5%;
+        border: 1px solid white;
+        border-radius: 90px;
+        padding: 15px;
+    }
+    #reserve-home{
+        display: none;
+    }  
+}

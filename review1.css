@@ -68,3 +68,162 @@
     color:gray ;
     background-color: white;
 }
+a{
+    text-decoration: none;
+    color: white;
+}
+.fa-whatsapp{
+    color: white;
+    position: absolute;
+    bottom: 9%;
+    right: 5%;
+    border: 1px solid white;
+    border-radius: 90px;
+    padding: 10px;
+
+ }
+ .fa-facebook{
+    color: white;
+    position: absolute;
+    left: 45cm;
+    top: 3cm;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 50px;
+ }
+ .fa-instagram{
+    color: white;
+    position: absolute;
+    left: 42cm;
+    top: 3cm;
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 30px;
+ }
+ .material-icons{
+    margin-top: 0.5cm;
+ }
+@media screen and (min-width: 320px) and (max-width: 857px){
+    .second-review{
+        background-color: black;
+        color: white;
+        height: 18.5cm;
+        padding: 4cm;
+        overflow: hidden;
+        /* text-align: center; */
+    }
+    #ambience{
+        font-size: 0.7em;
+        margin-left: -1cm;
+        
+    }
+    #paul{
+        font-size: 16px; 
+    }
+    .fa-quote-left{
+        color: brown;
+        margin-right: 11cm;
+    }
+    .fa-quote-right{
+        color: brown;
+        margin-left: 2.5cm;
+
+    }
+    #ankole-logo{
+        width: 5cm;
+        height: 5cm;
+        margin-left: -2cm;
+    }
+    .reserved{
+        background-color: rgb(34, 32, 32);
+        width: 8cm;
+        height: 1.9cm;
+        color: white;
+        border-radius: 20px;
+       top: 24.3cm;
+        left: 1.5cm;
+        /* position: fixed; */
+       /* position: absolute; */
+       
+    }
+    
+    .fa-bars{
+        color: bisque;
+        font-size:24px;
+        margin-right: 0.5cm;
+        padding: 0.3cm;
+    }
+    #reserve-home{
+        font-size: 20px;
+        margin-left: 0.5cm;
+        text-decoration: none;
+        color: white;
+    }
+    #reserve-button{
+        width: 3cm;
+        height: 1cm;
+        background-color: rgb(100, 97, 97);
+        color: white;
+        border-radius: 22px;
+       margin-top: 0.2cm;
+       margin-left: 0.5cm;
+       border: none;
+    }
+    .fa-chevron-left{
+        color: #898f9a;
+        margin-right: 4cm;
+       /* margin-left: -4%; */
+       
+    
+    }
+    .fa-chevron-right{
+        color: #858c99;
+        margin-left: 3.8cm;
+        
+    }
+    #reserve-button:hover{
+        color:gray ;
+        background-color: white;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+    }
+    .fa-whatsapp{
+        color: white;
+        position: absolute;
+        bottom: 9%;
+        right: 5%;
+        border: 1px solid white;
+        border-radius: 90px;
+        padding: 10px;
+    
+     }
+     .fa-facebook{
+        color: white;
+        position: absolute;
+        left: 7cm;
+        top: 3cm;
+        border: 1px solid gray;
+        padding: 10px;
+        border-radius: 50px;
+     }
+     .fa-instagram{
+        color: white;
+        position: absolute;
+        left: 7cm;
+        top: 1.5cm;
+        border: 1px solid gray;
+        padding: 10px;
+        border-radius: 30px;
+     }
+     .material-icons{
+        margin-top: 0.5cm;
+     }
+     #reserve-home{
+        display: none;
+    }  
+    h1{
+        margin-left: -1cm;
+    } 
+}
