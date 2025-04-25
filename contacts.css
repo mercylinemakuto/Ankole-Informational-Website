@@ -18,15 +18,15 @@
 }
 .kitisuru-contacts{
     border: 2px solid white;
-    width: 11cm;
+    width: 10cm;
     height: 7cm;
     padding: 0.3cm;
 }
 .kitisuru-contact{
     border: 2px solid white;
-    width: 11cm;
+    width: 10cm;
     height: 9cm;
-    padding: 1cm;
+    padding: 0.8cm;
     margin-top: 0.3cm;  
 }
 #logo{
@@ -112,18 +112,20 @@ a{
     margin-top: 0.5cm;
  }
  @media screen and (min-width: 320px) and (max-width: 857px){
+
     .contacts{
         display: flex;
         gap: 1cm;
         background-image: url(Images/ankolegrill.jpg);
         color: white;
-        height: 22cm;
+        height: 94vh;
         /* opacity: 80%; */
         padding-left:0.5cm;
         padding-top: 7.8cm;
         background-color: rgba(0, 0, 0, 0.6);
         background-blend-mode: darken;
        display: block;
+       
     }
     #address{
         text-decoration: none;
@@ -132,14 +134,14 @@ a{
     }
     .kitisuru-contacts{
         border: 2px solid rgb(252, 246, 246);
-        width: 8cm;
-        height: 7cm;
+        width: 84%;
+        height: 32vh;
         /* padding: 0.3cm; */
     }
     .kitisuru-contact{
         border: 2px solid rgb(241, 235, 235);
-        width: 7cm;
-        height: 9cm;
+        width: 71%;
+        height: 36vh;
         /* padding: 1cm; */
         /* margin-top: 0.1cm;   */
     }
@@ -147,9 +149,10 @@ a{
         width: 5cm;
         height: 5cm;
         /* position: fixed; */
-        /* top: 10cm; */
-        /* right: 20cm; */
-        /* z-index: -1; */
+        position: absolute;
+        top: 7vh;
+        right: 15vh;
+        /* z-index: 0.9999999999; */
     
     }
     .reserved{
@@ -158,8 +161,8 @@ a{
         height: 1.7cm;
         color: white;
         border-radius: 20px;
-       top: 27.5cm;
-        left: 0.2cm;
+       top: 117%;
+        left: 1cm;
         /* position: fixed; */
        /* position: absolute; */
        
@@ -198,18 +201,19 @@ a{
     
     .fa-whatsapp{
         color: white;
-        position: absolute;
-        bottom: -49%;
+        position: fixed;
+        bottom: -24%;
         right: 5%;
         border: 1px solid white;
         border-radius: 90px;
         padding: 10px;
+        position: absolute;
 
      }
      .fa-facebook{
         color: white;
-        position: absolute;
-        left: 8cm;
+        position: fixed;
+        left: 9cm;
         top: 3cm;
         border: 1px solid gray;
         padding: 10px;
@@ -217,8 +221,8 @@ a{
      }
      .fa-instagram{
         color: white;
-        position: absolute;
-        left: 8cm;
+        position: fixed;
+        left: 9cm;
         top: 1cm;
         border: 1px solid gray;
         padding: 10px;
